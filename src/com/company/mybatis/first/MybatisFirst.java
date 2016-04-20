@@ -85,7 +85,6 @@ public class MybatisFirst {
 	}
 	
 	/**
-	 * 
 	 * <p>method_name:insertUserTest</p>
 	 * <p>Description:插入一个用户</p>
 	 *

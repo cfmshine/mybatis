@@ -25,6 +25,7 @@ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
 	
 	<!-- 加载对象的映射文件mapper -->
 	<mappers>
-		<mapper resource="mapSql/UserMapper.xml"/>
+		<mapper resource="mapSql/User.xml"/>
+		<mapper resource="mapper/UserMapper.xml"/>
 	</mappers>	
 </configuration>

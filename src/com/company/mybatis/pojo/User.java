@@ -14,6 +14,18 @@ public class User {
 	private String sex;// 性别
 	private Date birthday;// 生日
 	private String address;// 地址
+	
+
+	public User() {
+	}
+
+	public User(int id, String username, String sex, Date birthday, String address) {
+		this.id = id;
+		this.username = username;
+		this.sex = sex;
+		this.birthday = birthday;
+		this.address = address;
+	}
 
 	public int getId() {
 		return id;

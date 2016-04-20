@@ -20,6 +20,10 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		SELECT * FROM USER WHERE id = #{id}
 	</select>
 	
+	<select id="findUser" resultType="com.company.mybatis.pojo.User">
+		SELECT * FROM USER
+	</select>
+	
 	<!-- ${}就是不加任何修饰的拼接字符串 ,其值只能是value,但是会出现SQL注入 -->
 	<select id="findUserByName" parameterType="String" resultType="com.company.mybatis.pojo.User">
 		SELECT * FROM USER WHERE username LIKE '%${value}%';
